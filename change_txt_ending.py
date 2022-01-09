@@ -1,6 +1,11 @@
-#This file is useful if you want to replace format of .txt file to something else. For example if you have files filename.cpp.txt, then OS takes it as a Notebook file
-#If file has a different original ending and changed for some reason and you want to add that to the file then append ending you with like this, after removing txt
-#file_name_new +=".csv"
+'''
+This file is useful if you want to replace format of .txt
+file to something else. For example if you have files filename.cpp.txt,
+then OS takes it as a Notebook file If file has a different original
+ending and changed for some reason and you want to add that to the file
+then append ending you with like this, 
+after removing txt:  file_name_new +=".csv"
+'''
 import os
 path = r"D:\My Documents\cpp"
 directories = os.listdir(path)
